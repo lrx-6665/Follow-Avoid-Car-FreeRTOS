@@ -1,0 +1,6 @@
+源码/Objects/
+源码/Listings/
+源码/Build.log
+*.uvguix.*
+.vscode/
+.codex_cleanup_follow.ps1
