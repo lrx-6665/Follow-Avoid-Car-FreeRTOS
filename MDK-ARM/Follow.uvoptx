@@ -161,7 +161,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
-          <Filename>D:\DeskTop\单子\car -B\HARDWARE\USART\USART1.c</Filename>
+          <Filename>..\Core\Src\USART1.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\Project\HARDWARE/USART/USART1.c\68</Expression>
         </Bp>
@@ -177,7 +177,7 @@
           <SizeOfObject>0</SizeOfObject>
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>0</BreakIfRCount>
-          <Filename>.\HARDWARE\USART\Follow.c</Filename>
+          <Filename>..\Core\Src\Follow.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression></Expression>
         </Bp>
@@ -264,7 +264,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\startup_stm32f10x_md.s</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\Device\ST\STM32F10x\Source\Templates\arm\startup_stm32f10x_md.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_md.s</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -276,7 +276,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\core_cm3.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\CoreSupport\core_cm3.c</PathWithFileName>
       <FilenameWithoutPath>core_cm3.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -288,7 +288,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\core_cm3.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\CoreSupport\core_cm3.h</PathWithFileName>
       <FilenameWithoutPath>core_cm3.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -300,7 +300,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\stm32f10x.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\Device\ST\STM32F10x\Include\stm32f10x.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -312,7 +312,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\system_stm32f10x.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\Device\ST\STM32F10x\Source\Templates\system_stm32f10x.c</PathWithFileName>
       <FilenameWithoutPath>system_stm32f10x.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -324,7 +324,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Start\system_stm32f10x.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\CMSIS\Device\ST\STM32F10x\Include\system_stm32f10x.h</PathWithFileName>
       <FilenameWithoutPath>system_stm32f10x.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -344,7 +344,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\misc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\misc.c</PathWithFileName>
       <FilenameWithoutPath>misc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -356,7 +356,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\misc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\misc.h</PathWithFileName>
       <FilenameWithoutPath>misc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -368,7 +368,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_adc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_adc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -380,7 +380,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_adc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_adc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -392,7 +392,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_bkp.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_bkp.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -404,7 +404,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_bkp.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_bkp.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -416,7 +416,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_can.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_can.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -428,7 +428,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_can.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_can.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -440,7 +440,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_cec.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_cec.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -452,7 +452,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_cec.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_cec.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -464,7 +464,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_crc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_crc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -476,7 +476,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_crc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_crc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -488,7 +488,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dac.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dac.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -500,7 +500,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dac.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dac.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -512,7 +512,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dbgmcu.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dbgmcu.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -524,7 +524,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dbgmcu.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dbgmcu.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -536,7 +536,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dma.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dma.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -548,7 +548,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_dma.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dma.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -560,7 +560,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_exti.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_exti.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -572,7 +572,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_exti.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_exti.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -584,7 +584,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_flash.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_flash.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -596,7 +596,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_flash.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_flash.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -608,7 +608,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_fsmc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_fsmc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -620,7 +620,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_fsmc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_fsmc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -632,7 +632,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_gpio.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_gpio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -644,7 +644,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_gpio.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_gpio.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -656,7 +656,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_i2c.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_i2c.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -668,7 +668,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_i2c.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_i2c.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -680,7 +680,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_iwdg.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_iwdg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -692,7 +692,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_iwdg.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_iwdg.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -704,7 +704,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_pwr.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_pwr.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -716,7 +716,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_pwr.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_pwr.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -728,7 +728,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_rcc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rcc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -740,7 +740,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_rcc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rcc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -752,7 +752,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_rtc.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rtc.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -764,7 +764,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_rtc.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rtc.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -776,7 +776,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_sdio.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_sdio.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -788,7 +788,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_sdio.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_sdio.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -800,7 +800,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_spi.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_spi.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -812,7 +812,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_spi.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_spi.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -824,7 +824,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_tim.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_tim.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -836,7 +836,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_tim.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_tim.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -848,7 +848,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_usart.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_usart.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -860,7 +860,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_usart.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_usart.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -872,7 +872,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_wwdg.c</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_wwdg.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -884,7 +884,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\Library\stm32f10x_wwdg.h</PathWithFileName>
+      <PathWithFileName>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_wwdg.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -904,7 +904,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\System\Delay.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\Delay.c</PathWithFileName>
       <FilenameWithoutPath>Delay.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -916,7 +916,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\System\Delay.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\Delay.h</PathWithFileName>
       <FilenameWithoutPath>Delay.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -928,7 +928,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\System\sys\sys.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\sys.c</PathWithFileName>
       <FilenameWithoutPath>sys.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -940,7 +940,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\System\sys\sys.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\sys.h</PathWithFileName>
       <FilenameWithoutPath>sys.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -960,7 +960,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\main.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -972,7 +972,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\stm32f10x_conf.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\stm32f10x_conf.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_conf.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -984,7 +984,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\stm32f10x_it.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -996,7 +996,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\stm32f10x_it.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\stm32f10x_it.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1016,7 +1016,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\LED\LED.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\LED.h</PathWithFileName>
       <FilenameWithoutPath>LED.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1028,7 +1028,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\TB6612\TB6612.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\TB6612.c</PathWithFileName>
       <FilenameWithoutPath>TB6612.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1040,7 +1040,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\TB6612\TB6612.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\TB6612.h</PathWithFileName>
       <FilenameWithoutPath>TB6612.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1052,7 +1052,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\TIME\TIM4_PWM.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\TIM4_PWM.c</PathWithFileName>
       <FilenameWithoutPath>TIM4_PWM.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1064,7 +1064,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\TIME\TIM4_PWM.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\TIM4_PWM.h</PathWithFileName>
       <FilenameWithoutPath>TIM4_PWM.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1076,7 +1076,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\USART\Follow.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\Follow.c</PathWithFileName>
       <FilenameWithoutPath>Follow.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1088,7 +1088,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\USART\Follow.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\Follow.h</PathWithFileName>
       <FilenameWithoutPath>Follow.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1100,7 +1100,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\Servo\Servo.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\Servo.c</PathWithFileName>
       <FilenameWithoutPath>Servo.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1112,7 +1112,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\Servo\Servo.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\Servo.h</PathWithFileName>
       <FilenameWithoutPath>Servo.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1124,7 +1124,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\HCSR04\HCSR04.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\HCSR04.c</PathWithFileName>
       <FilenameWithoutPath>HCSR04.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1136,7 +1136,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\HARDWARE\HCSR04\HCSR04.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\HCSR04.h</PathWithFileName>
       <FilenameWithoutPath>HCSR04.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1148,7 +1148,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\mycontrol.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\mycontrol.c</PathWithFileName>
       <FilenameWithoutPath>mycontrol.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1160,7 +1160,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\mycontrol.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\mycontrol.h</PathWithFileName>
       <FilenameWithoutPath>mycontrol.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1180,7 +1180,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\FreeRTOSConfig.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\FreeRTOSConfig.h</PathWithFileName>
       <FilenameWithoutPath>FreeRTOSConfig.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1192,7 +1192,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\car_rtos.c</PathWithFileName>
+      <PathWithFileName>..\Core\Src\car_rtos.c</PathWithFileName>
       <FilenameWithoutPath>car_rtos.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1204,7 +1204,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\User\car_rtos.h</PathWithFileName>
+      <PathWithFileName>..\Core\Inc\car_rtos.h</PathWithFileName>
       <FilenameWithoutPath>car_rtos.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1216,7 +1216,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\FreeRTOS\tasks.c</PathWithFileName>
+      <PathWithFileName>..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</PathWithFileName>
       <FilenameWithoutPath>tasks.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1228,7 +1228,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\FreeRTOS\queue.c</PathWithFileName>
+      <PathWithFileName>..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</PathWithFileName>
       <FilenameWithoutPath>queue.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1240,7 +1240,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\FreeRTOS\list.c</PathWithFileName>
+      <PathWithFileName>..\Middlewares\Third_Party\FreeRTOS\Source\list.c</PathWithFileName>
       <FilenameWithoutPath>list.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1252,7 +1252,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\FreeRTOS\timers.c</PathWithFileName>
+      <PathWithFileName>..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</PathWithFileName>
       <FilenameWithoutPath>timers.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -1264,7 +1264,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\FreeRTOS\portable\RVDS\ARM_CM3\port.c</PathWithFileName>
+      <PathWithFileName>..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c</PathWithFileName>
       <FilenameWithoutPath>port.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>

@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Start;.\Library;.\User;.\HARDWARE;.\System\sys;.\System;.\HARDWARE\LED;.\HARDWARE\TB6612;.\HARDWARE\TIME;.\HARDWARE\OLED;.\HARDWARE\USART;.\HARDWARE\Servo;.\HARDWARE\HCSR04;.\HARDWARE\TRACE;.\FreeRTOS\include;.\FreeRTOS\portable\RVDS\ARM_CM3</IncludePath>
+              <IncludePath>..\Core\Inc;..\Drivers\CMSIS\CoreSupport;..\Drivers\CMSIS\Device\ST\STM32F10x\Include;..\Drivers\STM32F10x_StdPeriph_Driver\inc;..\Middlewares\Third_Party\FreeRTOS\Source\include;..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM3</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -387,32 +387,32 @@
             <File>
               <FileName>startup_stm32f10x_md.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Start\startup_stm32f10x_md.s</FilePath>
+              <FilePath>..\Drivers\CMSIS\Device\ST\STM32F10x\Source\Templates\arm\startup_stm32f10x_md.s</FilePath>
             </File>
             <File>
               <FileName>core_cm3.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Start\core_cm3.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\CoreSupport\core_cm3.c</FilePath>
             </File>
             <File>
               <FileName>core_cm3.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Start\core_cm3.h</FilePath>
+              <FilePath>..\Drivers\CMSIS\CoreSupport\core_cm3.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Start\stm32f10x.h</FilePath>
+              <FilePath>..\Drivers\CMSIS\Device\ST\STM32F10x\Include\stm32f10x.h</FilePath>
             </File>
             <File>
               <FileName>system_stm32f10x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Start\system_stm32f10x.c</FilePath>
+              <FilePath>..\Drivers\CMSIS\Device\ST\STM32F10x\Source\Templates\system_stm32f10x.c</FilePath>
             </File>
             <File>
               <FileName>system_stm32f10x.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Start\system_stm32f10x.h</FilePath>
+              <FilePath>..\Drivers\CMSIS\Device\ST\STM32F10x\Include\system_stm32f10x.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -422,232 +422,232 @@
             <File>
               <FileName>misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\misc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\misc.c</FilePath>
             </File>
             <File>
               <FileName>misc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\misc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\misc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_adc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_adc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_adc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_bkp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_bkp.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_bkp.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_bkp.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_can.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_can.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_can.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_cec.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_cec.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_cec.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_cec.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_crc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_crc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_crc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_dac.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dac.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_dac.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dbgmcu.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_dbgmcu.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dbgmcu.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_dbgmcu.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_dma.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_dma.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_dma.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_exti.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_exti.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_exti.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_flash.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_flash.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_flash.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_flash.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_fsmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_fsmc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_fsmc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_fsmc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_gpio.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_gpio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_gpio.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_i2c.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_i2c.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_i2c.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_iwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_iwdg.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_iwdg.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_iwdg.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_pwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_pwr.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_pwr.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_pwr.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_rcc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rcc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_rcc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_rtc.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_rtc.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_rtc.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_sdio.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_sdio.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_sdio.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_spi.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_spi.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_spi.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_tim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_tim.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_tim.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_tim.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_usart.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_usart.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_usart.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\Library\stm32f10x_wwdg.c</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_wwdg.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\Library\stm32f10x_wwdg.h</FilePath>
+              <FilePath>..\Drivers\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -657,22 +657,22 @@
             <File>
               <FileName>Delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\System\Delay.c</FilePath>
+              <FilePath>..\Core\Src\Delay.c</FilePath>
             </File>
             <File>
               <FileName>Delay.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\System\Delay.h</FilePath>
+              <FilePath>..\Core\Inc\Delay.h</FilePath>
             </File>
             <File>
               <FileName>sys.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\System\sys\sys.c</FilePath>
+              <FilePath>..\Core\Src\sys.c</FilePath>
             </File>
             <File>
               <FileName>sys.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\System\sys\sys.h</FilePath>
+              <FilePath>..\Core\Inc\sys.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -682,22 +682,22 @@
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\main.c</FilePath>
+              <FilePath>..\Core\Src\main.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_conf.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\stm32f10x_conf.h</FilePath>
+              <FilePath>..\Core\Inc\stm32f10x_conf.h</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\stm32f10x_it.c</FilePath>
+              <FilePath>..\Core\Src\stm32f10x_it.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_it.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\stm32f10x_it.h</FilePath>
+              <FilePath>..\Core\Inc\stm32f10x_it.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -707,67 +707,67 @@
             <File>
               <FileName>LED.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\LED\LED.h</FilePath>
+              <FilePath>..\Core\Inc\LED.h</FilePath>
             </File>
             <File>
               <FileName>TB6612.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HARDWARE\TB6612\TB6612.c</FilePath>
+              <FilePath>..\Core\Src\TB6612.c</FilePath>
             </File>
             <File>
               <FileName>TB6612.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\TB6612\TB6612.h</FilePath>
+              <FilePath>..\Core\Inc\TB6612.h</FilePath>
             </File>
             <File>
               <FileName>TIM4_PWM.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HARDWARE\TIME\TIM4_PWM.c</FilePath>
+              <FilePath>..\Core\Src\TIM4_PWM.c</FilePath>
             </File>
             <File>
               <FileName>TIM4_PWM.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\TIME\TIM4_PWM.h</FilePath>
+              <FilePath>..\Core\Inc\TIM4_PWM.h</FilePath>
             </File>
             <File>
               <FileName>Follow.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HARDWARE\USART\Follow.c</FilePath>
+              <FilePath>..\Core\Src\Follow.c</FilePath>
             </File>
             <File>
               <FileName>Follow.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\USART\Follow.h</FilePath>
+              <FilePath>..\Core\Inc\Follow.h</FilePath>
             </File>
             <File>
               <FileName>Servo.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HARDWARE\Servo\Servo.c</FilePath>
+              <FilePath>..\Core\Src\Servo.c</FilePath>
             </File>
             <File>
               <FileName>Servo.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\Servo\Servo.h</FilePath>
+              <FilePath>..\Core\Inc\Servo.h</FilePath>
             </File>
             <File>
               <FileName>HCSR04.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HARDWARE\HCSR04\HCSR04.c</FilePath>
+              <FilePath>..\Core\Src\HCSR04.c</FilePath>
             </File>
             <File>
               <FileName>HCSR04.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\HARDWARE\HCSR04\HCSR04.h</FilePath>
+              <FilePath>..\Core\Inc\HCSR04.h</FilePath>
             </File>
             <File>
               <FileName>mycontrol.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\mycontrol.c</FilePath>
+              <FilePath>..\Core\Src\mycontrol.c</FilePath>
             </File>
             <File>
               <FileName>mycontrol.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\mycontrol.h</FilePath>
+              <FilePath>..\Core\Inc\mycontrol.h</FilePath>
             </File>
           </Files>
         </Group>
@@ -777,42 +777,42 @@
             <File>
               <FileName>FreeRTOSConfig.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\FreeRTOSConfig.h</FilePath>
+              <FilePath>..\Core\Inc\FreeRTOSConfig.h</FilePath>
             </File>
             <File>
               <FileName>car_rtos.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\User\car_rtos.c</FilePath>
+              <FilePath>..\Core\Src\car_rtos.c</FilePath>
             </File>
             <File>
               <FileName>car_rtos.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\User\car_rtos.h</FilePath>
+              <FilePath>..\Core\Inc\car_rtos.h</FilePath>
             </File>
             <File>
               <FileName>tasks.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FreeRTOS\tasks.c</FilePath>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\tasks.c</FilePath>
             </File>
             <File>
               <FileName>queue.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FreeRTOS\queue.c</FilePath>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\queue.c</FilePath>
             </File>
             <File>
               <FileName>list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FreeRTOS\list.c</FilePath>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\list.c</FilePath>
             </File>
             <File>
               <FileName>timers.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FreeRTOS\timers.c</FilePath>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\timers.c</FilePath>
             </File>
             <File>
               <FileName>port.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\FreeRTOS\portable\RVDS\ARM_CM3\port.c</FilePath>
+              <FilePath>..\Middlewares\Third_Party\FreeRTOS\Source\portable\RVDS\ARM_CM3\port.c</FilePath>
             </File>
           </Files>
         </Group>

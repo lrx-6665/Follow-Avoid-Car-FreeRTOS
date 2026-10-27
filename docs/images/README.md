@@ -1,0 +1,2 @@
+- 实车照片尚未放入本目录
+- 原理图见 `docs/schematic.pdf`
