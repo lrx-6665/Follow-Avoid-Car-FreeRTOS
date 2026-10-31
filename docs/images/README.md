@@ -1,2 +1,3 @@
-- 实车照片尚未放入本目录
-- 原理图见 `docs/schematic.pdf`
+- `car.jpg`：整车照片
+- `sensor.jpg`：超声波模块与底板
+- 演示视频已改为 B 站链接，见仓库根目录 `README.md`

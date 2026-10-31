@@ -6,9 +6,21 @@ STM32F103C8 标准外设库工程。三个按键切换停止、双超声波跟�
 
 ## 演示
 
-原理图：[docs/schematic.pdf](docs/schematic.pdf)
+实车照片：
 
-实车照片和演示视频还没有放进仓库。
+![整车](docs/images/car.jpg)
+
+![超声波模块](docs/images/sensor.jpg)
+
+B 站演示视频（点击封面跳转播放）：
+
+[![基于stm32的智能跟随小车](https://i1.hdslb.com/bfs/archive/45badf485de07e3cb17a1c3f589f5f859e7ac828.jpg)](https://www.bilibili.com/video/BV1RCxz6iEzF)
+
+- [基于stm32的智能跟随小车](https://www.bilibili.com/video/BV1RCxz6iEzF)（约 1 分 21 秒）
+
+账号空间：[bili_77888709002](https://space.bilibili.com/1374157254)
+
+原理图：[docs/schematic.pdf](docs/schematic.pdf)
 
 ## 硬件平台
 
